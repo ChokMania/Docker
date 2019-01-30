@@ -1,0 +1,4 @@
+#creer dossier avec hello.py et dans template hello.html
+docker pull python:2-slim
+docker run --detach --tty --name Abathur --volume /Users/judumay/docker00_basic:/root --workdir /root --publish 3000:3000 --env FLASK_APP=hello.py python:2-slim
+docker exec Abathur bash -c 'pip install Flask && flask run --host=0.0.0.0 --port=3000'

@@ -1,0 +1,1 @@
+docker-machine -s /sgoinfre/goinfre/Perso/judumay/Docker/. create --driver virtualbox Char
