@@ -1,3 +1,0 @@
-export MACHINE_STORAGE_PATH='/sgoinfre/goinfre/Perso/judumay/Docker'
-docker-machine regenerate-certs Char
-

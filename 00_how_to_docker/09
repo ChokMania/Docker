@@ -1,3 +1,5 @@
-apt-get update
-apt-get upgrade
-apt-get install git build-essential
+apt-get update -y
+apt-get upgrade -y
+apt-get install git build-essential -y
+apt-get install git -y
+#docker run --rm -i -t debian /bin/sh

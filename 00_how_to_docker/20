@@ -1,2 +1,2 @@
-docker-machine ssh Char
+#docker-machine ssh Char
 docker swarm init --advertise-addr $(docker-machine ip Char)
