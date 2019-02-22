@@ -10,4 +10,4 @@ RUN chmod +x minecraft_server.jar
 COPY files/eula.txt .
 EXPOSE 25566
 CMD java -Xms1024M -Xmx1536M -jar /etc/minecraft/minecraft_server.jar -o true
-#docker run -it --name phil -p 25565:25565 mcserv
+#docker run -it -p 25565:25565 mcserv
